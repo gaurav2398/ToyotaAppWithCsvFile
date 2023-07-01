@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:checked="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:checked="false"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="History" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:checked="false"
+        android:icon="@drawable/ic_user"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:checked="false"
+        android:icon="@drawable/ic_gear"
+        android:title="Setting" />
+
+
+</menu>

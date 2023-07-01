@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#6A5AD4"
+        android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/back"
+            android:layout_marginLeft="12dp"
+            android:gravity="center|left"
+            android:text="Privacy Policy"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:fontFamily="@font/sfpro"/>
+
+    </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="I'm Healthy committed to protecting your privacy. By installing and using I'm Healthy app, you agree to this privacy policy.
+\nIf you do not agree to this privacy policy, please do not use I'm Healthy Platform.
+\nPlease read this privacy policy carefully to understand important aspects.
+\nPrivacy Policy describes the information which may be collected and how its utilised by the platform. "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Information Collected : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="1. With Prompt : When you agree and use for the platform, information which may collected includes Name, Email, Birthday, Gender, Location, and Mobile Number.
+\n\n2. Without Prompt :Information related to your usage of the I'm Healthy Platform. I'm Healthy Platform may access your device’s camera, speaker, photo gallery. If you permit, I'm Healthy may collect information related to your device location."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Information Not Collected :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="We do not collect any Sensitive Personal Data or information such as"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="1. Password related to other services"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="2. Financial information such as bank account or credit card or debit card or other payment instrument details."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" /><!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="3. Medical history"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="3. Biometric information"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="How Information is used : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="We may use data that is collected: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="1. To provide platform updates "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="2. To detect and prevent fraud"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="3. For internal analytics purposes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="How Information is shared :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="We may share your information in ways including the following:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="1. Your publicly available information will be visible to other users."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="2. To prevent fraud"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="3. For legal, safety, and security reasons."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="4. To comply with any valid legal process, governmental request, or applicable law, rule, or regulation."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Data Retention : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="We may retain the information relating to your device collected for a period of up to 24 months, unless otherwise required by law.
+\We may retain the information it obtains about you as per the instructions of its customers or partners who provide such information or as required to fulfil our contractual obligations. "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Policy Updation: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="We may update this Policy. We will provide you notice of amendments to this Policy, as appropriate, and update the latest modified date at the top of this Policy. Please check our Privacy Policy regularly to ensure you have read the latest version. "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Jurisdictions : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="This Policy and any issues or disputes relating to your use of I'm Healthy shall be subject to the exclusive jurisdiction of the Courts at India."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#686363" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,347 @@
+{
+  "project_info": {
+    "project_number": "1099240915041",
+    "firebase_url": "https://wifidemo-1015f.firebaseio.com",
+    "project_id": "wifidemo-1015f",
+    "storage_bucket": "wifidemo-1015f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099240915041:android:ae90dfae7306a49b546a20",
+        "android_client_info": {
+          "package_name": "gaurav.project.admindhani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099240915041-74iv8l3430ltiqo19rt5ibv2jfaanfo7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gaurav.project.admindhani",
+            "certificate_hash": "56cb4591dd55df96b98c2a4154539ab3f8d71c41"
+          }
+        },
+        {
+          "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvAas5Ztg0HrLm74cdacZlvnUdNu1JYAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099240915041:android:5fed83f670782392546a20",
+        "android_client_info": {
+          "package_name": "gaurav.project.dhanniapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099240915041-dt9qu2mh6eqgst81dc4nlunls5nb2sns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gaurav.project.dhanniapp",
+            "certificate_hash": "56cb4591dd55df96b98c2a4154539ab3f8d71c41"
+          }
+        },
+        {
+          "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvAas5Ztg0HrLm74cdacZlvnUdNu1JYAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099240915041:android:ae19afd54de62c2f546a20",
+        "android_client_info": {
+          "package_name": "gaurav.project.firebphoneauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099240915041-r8co2pvp7mamt221loqako6d7k0n0sl5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gaurav.project.firebphoneauth",
+            "certificate_hash": "56cb4591dd55df96b98c2a4154539ab3f8d71c41"
+          }
+        },
+        {
+          "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvAas5Ztg0HrLm74cdacZlvnUdNu1JYAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099240915041:android:c36ea1f1801585d4546a20",
+        "android_client_info": {
+          "package_name": "im.healthy.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099240915041-h9q6e06ud42b9qhhtovlclu2svu3na1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "im.healthy.adminapp",
+            "certificate_hash": "56cb4591dd55df96b98c2a4154539ab3f8d71c41"
+          }
+        },
+        {
+          "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvAas5Ztg0HrLm74cdacZlvnUdNu1JYAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099240915041:android:fc44e1dbb8af597b546a20",
+        "android_client_info": {
+          "package_name": "im.healthy.userapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099240915041-r8lie8uudq6br502gq8f728amafh079v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "im.healthy.userapp",
+            "certificate_hash": "56cb4591dd55df96b98c2a4154539ab3f8d71c41"
+          }
+        },
+        {
+          "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvAas5Ztg0HrLm74cdacZlvnUdNu1JYAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099240915041:android:914d58694a76f228546a20",
+        "android_client_info": {
+          "package_name": "impel.imhealthy.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099240915041-35l00u26tmfceh6jh2gc3jqsqn8quohu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "impel.imhealthy.adminapp",
+            "certificate_hash": "56cb4591dd55df96b98c2a4154539ab3f8d71c41"
+          }
+        },
+        {
+          "client_id": "1099240915041-4k1s1nt9ht0u3ehufkbpsn2ughb77tt4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "impel.imhealthy.adminapp",
+            "certificate_hash": "11788bc0775b811ec955e6e181ea174c6cd8662c"
+          }
+        },
+        {
+          "client_id": "1099240915041-onm89drhejluga49n5mebc3j1aodj2mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "impel.imhealthy.adminapp",
+            "certificate_hash": "61bf37e911fee9961a877a87a68e055a49bfcc8b"
+          }
+        },
+        {
+          "client_id": "1099240915041-tamnagkk6ipd5la27fqh5lh6g9oj20et.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "impel.imhealthy.adminapp",
+            "certificate_hash": "7c5d5e104f5d34bc1ab77a2f38e11983167d6348"
+          }
+        },
+        {
+          "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvAas5Ztg0HrLm74cdacZlvnUdNu1JYAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099240915041:android:1135460ee1751131546a20",
+        "android_client_info": {
+          "package_name": "impel.imhealthy.userapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099240915041-8qp1tca1vmomu7juk71ula7o002ud9iv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "impel.imhealthy.userapp",
+            "certificate_hash": "56cb4591dd55df96b98c2a4154539ab3f8d71c41"
+          }
+        },
+        {
+          "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvAas5Ztg0HrLm74cdacZlvnUdNu1JYAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099240915041:android:affcb73e3ca1cd36546a20",
+        "android_client_info": {
+          "package_name": "impel.imhealthy.usersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099240915041-akevesp5o2k3p8ehq6c2qc2bog8m8094.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "impel.imhealthy.usersapp",
+            "certificate_hash": "11788bc0775b811ec955e6e181ea174c6cd8662c"
+          }
+        },
+        {
+          "client_id": "1099240915041-j5e1tqcqevr6mlohknng765n8lf2hks9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "impel.imhealthy.usersapp",
+            "certificate_hash": "56cb4591dd55df96b98c2a4154539ab3f8d71c41"
+          }
+        },
+        {
+          "client_id": "1099240915041-v7e5772j6979j610i0fam0kg4j4htvaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "impel.imhealthy.usersapp",
+            "certificate_hash": "3755cbb7d2713dc228c06d68abdbae5eb5bfb8e8"
+          }
+        },
+        {
+          "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvAas5Ztg0HrLm74cdacZlvnUdNu1JYAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099240915041-56j0ikossqpurptppu4dhnqqqbpua4sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlpincode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#6A5AD4"
+    android:fitsSystemWindows="true"
+    >
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:clickable="true">
+
+        <RelativeLayout
+            android:id="@+id/arrowback2"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_arrow_back" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border_curve"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/logo" />
+                <LinearLayout
+
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Fill Details Below"
+                        android:gravity="left"
+                        android:textSize="15dp"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                        android:textColor="#1F1F1F" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="41dp"
+                        android:padding="3dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bordergrey"
+                        android:orientation="horizontal">
+
+
+                        <EditText
+                            android:id="@+id/edt_pincode"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="14dp"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:hint="Establishment Area PIN Code"
+                            android:textColorHint="#1F1F1F"
+                            android:singleLine="true"
+                            android:paddingLeft="7dp"
+                            android:background="#F0F1F5"
+                            android:textColor="#1F1F1F"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"/>
+
+                        <TextView
+                            android:id="@+id/verify"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Verify"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/lls"
+                        android:layout_width="match_parent"
+                        android:layout_height="41dp"
+                        android:visibility="gone"
+                        android:padding="3dp"
+                        android:layout_marginTop="7dp"
+                        android:background="@drawable/bordergrey"
+                        android:orientation="horizontal">
+
+
+                        <EditText
+                            android:id="@+id/edt_state"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="14dp"
+                            android:inputType="number"
+                            android:enabled="false"
+                            android:hint="Establishment State"
+                            android:textColorHint="#1F1F1F"
+                            android:singleLine="true"
+                            android:paddingLeft="7dp"
+                            android:background="#F0F1F5"
+                            android:textColor="#1F1F1F"
+                            android:layout_weight="1"
+                            android:editable="false"
+                            android:clickable="false"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/lld"
+                        android:layout_width="match_parent"
+                        android:layout_height="41dp"
+                        android:padding="3dp"
+                        android:layout_marginTop="7dp"
+                        android:visibility="gone"
+                        android:background="@drawable/bordergrey"
+                        android:orientation="horizontal">
+
+
+                        <EditText
+                            android:id="@+id/edt_district"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:enabled="false"
+                            android:editable="false"
+                            android:clickable="false"
+                            android:textSize="14dp"
+                            android:inputType="number"
+                            android:hint="Establishment District"
+                            android:textColorHint="#1F1F1F"
+                            android:singleLine="true"
+                            android:paddingLeft="7dp"
+                            android:background="#F0F1F5"
+                            android:textColor="#1F1F1F"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"/>
+
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_pin_submit"
+                        android:layout_width="match_parent"
+                        android:layout_height="41dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="100dp"
+                        android:background="@drawable/bordergreen"
+                        android:visibility="gone"
+                        android:clickable="true"
+                        android:fontFamily="@font/calibri"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:text="SUBMIT"
+                        android:textColor="#fff"
+                        android:textSize="15.5dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

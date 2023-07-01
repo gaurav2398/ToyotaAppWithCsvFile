@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#6A5AD4"
+        android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toRightOf="@id/back"
+            android:fontFamily="@font/sfpro"
+            android:gravity="center|left"
+            android:text="FAQ"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="1. How to take test?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="1 Click on Test.\n2 Enable location and Wifi funtionality.\n3 Click on QR code image, scan Qr code from shown on device.\n4 Put you finger on device sensor.\n5.You will get radings on your mobile app."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#1E1E1E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="2. How to see history ?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="1 Click on History menu.\n2 Get history based on day, week and month by clicking specific tab."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#1E1E1E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="3. How to share Symptoms ?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="1. Click on Home menu select Symptoms.\n2. Select symptoms and click on share button.\n3. Select perticular app to share respectively."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#1E1E1E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="4. How to edit profile ?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="4dp"
+            android:text="1. Click on Profile menu.\n2. Click on edit icon on top right corner.\n3. Edit details according to your need."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1E1E1E" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

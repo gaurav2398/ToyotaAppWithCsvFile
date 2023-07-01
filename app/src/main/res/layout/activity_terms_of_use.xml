@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#6A5AD4"
+        android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/back"
+            android:layout_marginLeft="12dp"
+            android:gravity="center|left"
+            android:text="Terms Of Use"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:fontFamily="@font/sfpro"/>
+
+    </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Please read these terms of use carefully. By downloading the Im Healthy App, you agree to these terms."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1E1E1E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Introduction : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="These are the terms of use for the Im Healthy App which is being made available for people across the India."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1E1E1E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Use of the Im Healthy App :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="1. Use of the App requires an Android mobile device which supports Android 6.0 or higher"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1E1E1E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="2. In addition, in order to operate correctly, the App also requires Wifi &amp; Location functionally turned on."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1E1E1E" /><!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="3. Medical history"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1E1E1E" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Your Privacy : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="The Privacy Information Notice confirms the terms upon which your personal data is collected and used in respect of your use of the App and the Services."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1E1E1E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Google Play Store’s terms also apply :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="When you download the App, or when you access or use the App or the Services, you may also be subject to the terms of use and policies of the relevant Google Play Store."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1E1E1E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Updates to the App and changes to the Services : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="From time to time we may automatically update the App and change the Services to improve performance, enhance functionality, reflect changes to the operating system or address security issues. Alternatively, we may ask you to update the App for these reasons. If you choose not to install such updates or if you opt out of automatic updates you may not be able to continue using the App and the Services and you may compromise the security of your data or device."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1E1E1E" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="We are not responsible for other websites you link to : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1F1F1F"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:text="The App or any Service may contain links to other independent websites which are not provided by us. Such independent sites are not under our control, and we are not responsible for and have not checked and approved their content or their privacy policies (if any). You will need to make your own independent judgement about whether to use any such independent sites."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1E1E1E" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

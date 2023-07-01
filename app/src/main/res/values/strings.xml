@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Toyota</string>
+
+
+    <string name="ok_dob">Ok</string>
+    <string name="cancel_dob">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="day">DAY</string>
+    <string name="week">WEEK</string>
+    <string name="month">MONTH</string>
+
+    <string name="home">HOME</string>
+    <string name="profile">PROFILE </string>
+    <string name="setting">SETTING</string>
+    <string name="history">HISTORY</string>
+
+
+    <string name="current_ssid">Current SSID: %1$s</string>
+</resources>
