@@ -1,5 +1,5 @@
 # ToyotaAppWithCsvFile
-
+Project location : F:\DhaniMy\AdminDhaniSqlLite - Copy
 Adding csv in raw folder paste it in phonememory/download folder browse it from app/
 [exceltoyota.csv](https://github.com/gaurav2398/ToyotaAppWithCsvFile/files/11926662/exceltoyota.csv)
 
